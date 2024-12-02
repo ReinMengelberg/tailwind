@@ -1,0 +1,19 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "Adds Tailwind CSS and AlpineJS to Frappe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "npx tailwindcss -i ./tailwind/public/css/input.css -o ./tailwind/public/css/tailwind.min.css --minify && cp node_modules/alpinejs/dist/cdn.min.js ./tailwind/public/js/alpine.min.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alpinejs": "^3.14.5",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
+}
