@@ -30,7 +30,7 @@ app_license = "gpl-3.0"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/tailwind/css/tailwind.css"
-# web_include_js = "/assets/tailwind/js/tailwind.js"
+web_include_js = "/assets/tailwind/js/tailwind-init.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "tailwind/public/scss/website"
