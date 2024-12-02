@@ -1,6 +1,6 @@
 ## Tailwind
 
-Adds Tailwind CSS and AlpineJS to Frappe
+Integrates Tailwind into Frappe Globally
 
 #### License
 

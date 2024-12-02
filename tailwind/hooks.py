@@ -1,7 +1,7 @@
 app_name = "tailwind"
 app_title = "Tailwind"
 app_publisher = "MengelMann B.V."
-app_description = "Adds Tailwind CSS and AlpineJS to Frappe"
+app_description = "Integrates Tailwind into Frappe Globally"
 app_email = "info@mengelmann.nl"
 app_license = "gpl-3.0"
 
@@ -29,8 +29,8 @@ app_license = "gpl-3.0"
 # app_include_js = "/assets/tailwind/js/tailwind.js"
 
 # include js, css files in header of web template
-web_include_css = "/assets/tailwind/css/tailwind.min.css"
-web_include_js = "/assets/tailwind/js/alpine.min.js"
+# web_include_css = "/assets/tailwind/css/tailwind.css"
+# web_include_js = "/assets/tailwind/js/tailwind.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "tailwind/public/scss/website"

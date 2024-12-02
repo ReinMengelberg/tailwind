@@ -3,7 +3,7 @@ name = "tailwind"
 authors = [
     { name = "MengelMann B.V.", email = "info@mengelmann.nl"}
 ]
-description = "Adds Tailwind CSS and AlpineJS to Frappe"
+description = "Integrates Tailwind into Frappe Globally"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
